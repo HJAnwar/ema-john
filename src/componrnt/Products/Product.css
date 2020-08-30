@@ -1,0 +1,21 @@
+.products-container{
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+}
+.title-container{
+    margin-left: 13px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    
+}
+.img-container{
+    margin-left: 30pz;
+    margin-top: 5px;
+}
+.btn-color{
+    background-color:gold;
+    border:none;
+    width: 150px;
+    height: 30px;
+    margin-left: 130px;
+}
