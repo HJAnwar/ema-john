@@ -17,5 +17,9 @@
     border:none;
     width: 150px;
     height: 30px;
-    margin-left: 130px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.color{
+    color: blue;
 }

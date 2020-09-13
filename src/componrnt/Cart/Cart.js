@@ -3,7 +3,7 @@ import '././Cart.css'
 
 const Cart = (props) => {
     const cart = props.cart;
-    const total = cart.reduce((total, product) => total + product.price, 0);
+    const total = cart.reduce((total, product) => total + product.price * product.quantity, 0);
     
     const tax = (total / 10).toFixed(2);
 
@@ -26,6 +26,10 @@ const Cart = (props) => {
             <p><smal>VAT + Tax: {tax}</smal></p>
             <p><smal>Delivary Cost: {delivary}</smal></p>
             <p>total price:{totals}</p>
+            <br/>
+            {
+                props.children
+            }
         </div>
     );
 };
